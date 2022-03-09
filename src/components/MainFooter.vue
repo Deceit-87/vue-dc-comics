@@ -1,6 +1,7 @@
 <template>
   <div class="contact-info">
-    main footer
+    <div class="container-footer">
+    </div> 
   </div>
 </template>
 
@@ -14,12 +15,21 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.contact-info{
-  height: 481px;
-  background-image: url('../assets/img/dc-logo-bg.png'),url('../assets/img/footer-bg.jpg');
-  background-repeat: no-repeat;
-  background-size:contain ,cover;
-  background-position: right center;
+  .contact-info{
+    height: 481px;
+    background-image: url('../assets/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .container-footer{
+    background-image: url('../assets/img/dc-logo-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 482px;
+    background-size: initial;
+    margin: 0 200px;
+
   }
 
 

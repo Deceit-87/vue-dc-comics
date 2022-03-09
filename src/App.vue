@@ -36,13 +36,13 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-
-#app{
-  width:1920px ;
-  height: 100vh;
+ul,ol{
+  list-style: none;
 }
-
-.container{
+#app{
+  max-width:1920px ;
   
 }
+
+
 </style>
