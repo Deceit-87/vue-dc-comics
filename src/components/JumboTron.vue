@@ -1,9 +1,9 @@
 <template>
   <div class="jumbotron">
-    <CardComics v-for="(slide,i) in slides"
+    <CardComics v-for="(comic,i) in comics"
       :key="i"
-      :img="slide.thumb"
-      :title="slide.series" />
+      :img="comic.thumb"
+      :title="comic.series" />
   </div>
 </template>
 
@@ -17,7 +17,7 @@ export default {
 
   data() {
     return {
-      slides: [
+      comics: [
             {
               "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX",
               "price": "$19.99",
